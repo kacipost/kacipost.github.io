@@ -1,6 +1,6 @@
 # kacipost.github.io
 ## Welcome to my portfolio!
-I am currently a student in MIT's xPro Full-Stack Engineering with MERN Professional Certification with a projected graduation date of December 4, 2021. The index.html will take 
+I recently graudated from MIT with a Professional Certificate in Coding: Full-Stack Development with MERN. The index.html will take 
 you the to the home page of my website. From there you can learn more about me and how to contact me, as well as my skills and some of the projects I have contributed to during my
 time at MIT.
 ## How To
