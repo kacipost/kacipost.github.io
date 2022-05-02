@@ -8,4 +8,4 @@ The index.html will take you to my portfolio home page. By using the navigation 
 have worked with. Future improvements include adding styling and additional css grid structure to enhance the look of the pages. I would also like to add additional projects for
 viewing and add to my list of current coding skills. 
 
-![BioPic](Biopic2.png)
+![BioPic](images/Biopic2.png)
