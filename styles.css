@@ -1,37 +1,47 @@
 body {
-    background-color: lavender;
+    background-color: rgb(101, 101, 112);
 }
 
 .welcome {
-    background-color: #320d7b;
+    background-color: #b1a1d1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    border-radius: 30px;
-    width: 50%;
+    padding: 20px;
     margin: auto;
 }
 
-.pic {
-    padding: 2px;
+.maincontent {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+    padding: 10px;
     margin: auto;
     text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
 h2.Intro {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
-    color: #320d7b;
+    color: #e4ddf1;
     text-align: center;
-    width: 50%;
     margin: auto;
-    padding-bottom: 5px;
+    padding: 20px;
 }
 
 a.link {
-    color: green;
+    color: #b1a1d1;
     text-decoration: none;
 }
 
@@ -40,37 +50,28 @@ a:hover {
 }
 
 h1.About {
+    background-color: #b1a1d1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    color: white; 
+    color: white;
+    padding: 20px;
     text-align: center;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 30px;
-    padding: 5px;
-    background-color: #320d7b;
-    width: 50%;
-    margin: auto;
 }
 
-h2.Bio {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: #320d7b; 
-    width: 75%;
+h3.Bio {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+    padding: 10px;
     margin: auto;
     text-align: center;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    border-radius: 10px;
-    padding: 5px;
+    font-size: 18px;
+    color: #e4ddf1;
 }
 
 h3.languages {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    color: #320d7b; 
+    color: white; 
     width: 75%;
     margin: auto;
     text-align: center;
@@ -78,15 +79,11 @@ h3.languages {
 }
 
 h1.title {
+    background-color: #b1a1d1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 40 px;
-    text-align: center;
-    background-color: #320d7b;
     color: white;
-    width: 50%;
-    border-radius: 30px;
-    margin: auto;
-    padding: 5px;
+    padding: 20px;
+    text-align: center;
 }
 
 h2.buspic {
@@ -101,33 +98,61 @@ h2.buspic {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+    color: white;
+    padding: 20px;
 }
 
 h2.howto {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
-    background-color: #320d7b;
     color: white;
-    width: 50%;
-    border-radius: 30px;
+    width: 75%;
     margin: auto;
-    padding: 5px;
+    padding: 20px;
+    background-color: #b1a1d1;
 }
 
 .grid2 {
     display: grid;
-    grid-template-columns: repeat(3, 33.33%);
+    grid-template-columns: repeat(2, 50%);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
-grid2.skills{
+.skills{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    color: #320d7b; 
-    width: 75%;
     margin: auto;
     text-align: center;
     padding: 10px;
+    background-color: #b1a1d1;
+}
+
+@media screen and (max-width: 600px) {
+    .grid2 {
+        width: 100%;
+    }
+}
+
+.contactinfo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    background-color: #b1a1d1;
+}
+
+.bankpic {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #b1a1d1;
 }
